@@ -1,0 +1,26 @@
+Promesas ejemplos
+
+let promesa = new promise (function(recive,reject) {
+    set timeOut(function) {
+        resolve(''timeOut);
+    },1000);
+});
+
+promesa.then (function(data) {
+    console.log(data);
+});
+
+
+
+CallBack ejemplos
+
+function saludar(nombre) {
+    alert ('Hola' + nombre);
+}
+
+function ingresarUsuario(CallBack) {
+    var nombre = ('Por favor ingresa tu nombre');
+    CallBack(nombre);
+}
+
+ingresarUsuario(saludar);
