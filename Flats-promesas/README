@@ -5,7 +5,7 @@ let promesa = new promise (function(recive,reject) {
         resolve(''timeOut);
     },1000);
 });
-
+g
 promesa.then (function(data) {
     console.log(data);
 });
@@ -13,7 +13,7 @@ promesa.then (function(data) {
 
 
 CallBack ejemplos
-
+  
 function saludar(nombre) {
     alert ('Hola' + nombre);
 }
